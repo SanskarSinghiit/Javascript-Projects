@@ -11,11 +11,15 @@ function myFunction(){
     document.body.style.backgroundColor = vibrantColors[x];
 }
 let textChangeCounter = 0;
+
 function resetFunction(){
+    if(document.body.style.backgroundColor != "white"){
+        clearTimeout(settimeout);
+    }
     counter = 0;
     textChangeCounter++;
     if(document.body.style.backgroundColor = "white"){
-        setTimeout(resetFunction, 4000);
+        var settimeout = setTimeout(resetFunction, 4000);
     }
     if(textChangeCounter&1){
         document.getElementById('status').innerHTML = `Change this boring white color!!!`;
