@@ -1,0 +1,26 @@
+*{
+    white-space: nowrap;
+}
+button{
+    /* display: none; */
+    color: rgb(4, 17, 26);
+    box-shadow: 1px 1px;
+    width: auto;
+}
+.mainDiv{
+    /* display: inline-flex; */
+    width: 240px;
+
+    /* border: solid black; */
+    margin: 40vh 50vw 35vh 45vw;
+    flex-direction: column;
+}
+.buttonDiv{
+    text-align: center;
+}
+
+p{
+    /* margin: auto; */
+    text-align: center;
+    /* color: green; */
+}
