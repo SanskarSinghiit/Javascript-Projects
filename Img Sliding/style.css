@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    height: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+    /* background-image: url(left-arrow.png); */
+    /* background-color: blue ; */
+    border: solid black;
+}
+
+#left{
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 100px;
+    background-image: url(/images/arrows/left-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+}
+
+#mid{
+    flex-grow: 1;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background-color: green; */
+
+}
+
+#right{
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 100px;
+    background-image: url(/images/arrows/right-arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
